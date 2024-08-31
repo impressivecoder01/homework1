@@ -32,3 +32,26 @@
 // console.log(grade);
 
 
+// task 4      nested friend
+// let markFriend = 65;
+// let markMe = 82;
+// if(markFriend > 80 && markMe > 80 ){
+//     console.log("Go for a lunch.")
+//     if((markFriend < 80 && markFriend >= 60) && (markMe> 80)){
+//         console.log("Better luck next time")
+//     }
+//     if((markFriend < 60 && markFriend >= 40) && (markMe > 80)){
+//         console.log("no message")
+//     }
+//     if (markFriend < 40 && markMe < 80){
+//         console.log("Block")
+//     }
+//     if(markMe < 80){
+//         console.log("home")
+//     }
+// }
+
+// console.log(markFriend)
+
+
+// 
