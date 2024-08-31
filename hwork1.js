@@ -54,4 +54,33 @@
 // console.log(markFriend)
 
 
-// 
+// task 5
+// let one = 5;
+// let two = 6;
+// let result = one + two;
+// if(one > two){
+//     console.log(one * 2)
+// }
+// else{
+//     console.log(result)
+// }
+
+// ternary
+// one > two ? console.log(one *2 ) : console.log(result)
+
+// task 6   ticket fare calculator
+// let age = 4;
+// let ticket = 200;
+// let student = true;
+// if(age < 10){
+//     console.log("free")
+// }
+// else if(student && age > 11){
+//     console.log(ticket * 50 / 100)
+// }
+// else if (age >= 60 && age < 80){
+//     console.log(ticket * 15 / 100)
+// }
+// else{
+//     console.log(ticket)
+// }
