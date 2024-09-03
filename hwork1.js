@@ -12,24 +12,43 @@
 
 
 // task 3      Grade Calculator
-// const grade = (0);
+// const grade = (70);
 
-// if(grade>=90 && grade<=100){
+// if(grade >= 90 && grade <= 100){
 //     console.log("Got A+")
-// }
-// if(grade>=80 && grade<=89){
+
+// if(grade >= 80 && grade <= 89){
 //     console.log("Got A")
 // }
-// if(grade>=70 && grade<=79){
+// if(grade >= 70 && grade <= 79){
 //     console.log("Got B+")
 // }
-// if(grade>=60 && grade<=69){
+// if(grade >= 60 && grade <= 69){
 //     console.log("B")
+// }
 // }
 // else{
 //     console.log("c")
 // }
-// console.log(grade);
+let grade = 75;
+if (grade >= 90 && grade <=100){
+    console.log("Got a+")
+}
+else if(grade >= 80 && grade<= 89){
+    console.log("a")
+}
+else if(grade >= 70 && grade <= 79){
+    console.log("b+")
+}
+else if(grade >= 60 && grade <= 69){
+    console.log("b")
+}
+else if(grade >= 0 && grade <= 59){
+    console.log("c")
+}
+else{
+    console.log("sleep")
+}
 
 
 // task 4      nested friend
