@@ -52,25 +52,23 @@
 
 
 // task 4      nested friend
-// let markFriend = 65;
-// let markMe = 82;
-// if(markFriend > 80 && markMe > 80 ){
-//     console.log("Go for a lunch.")
-//     if((markFriend < 80 && markFriend >= 60) && (markMe> 80)){
-//         console.log("Better luck next time")
-//     }
-//     if((markFriend < 60 && markFriend >= 40) && (markMe > 80)){
-//         console.log("no message")
-//     }
-//     if (markFriend < 40 && markMe < 80){
-//         console.log("Block")
-//     }
-//     if(markMe < 80){
-//         console.log("home")
-//     }
-// }
-
-// console.log(markFriend)
+let markFriend = 65;
+let markMe = 82;
+if(markFriend > 80 && markMe > 80 ){
+    console.log("Go for a lunch.")
+    if((markFriend < 80 && markFriend >= 60) && (markMe> 80)){
+        console.log("Better luck next time")
+    }
+    if((markFriend < 60 && markFriend >= 40) && (markMe > 80)){
+        console.log("no message")
+    }
+    if (markFriend < 40 && markMe < 80){
+        console.log("Block")
+    }
+    if(markMe < 80){
+        console.log("home")
+    }
+}
 
 // let markFriend = 45;
 // let markMe = 5;
@@ -89,6 +87,26 @@
 // else if(markMe < 80){
 //     console.log("go to sleep")
 // }
+
+// let markFriend = 45;
+// let markMe = 88;
+// if(markMe > 80){
+//     if(markFriend <= 80 && markFriend >= 60){
+//         console.log("better luck")
+//     }
+//     if(markFriend > 80){
+//         console.log("let have a lunch.")
+//     }
+//     if(markFriend < 60 && markFriend >= 40){
+//         console.log("no msg")
+//     }
+//     if(markFriend < 40 && markMe > 80){
+//         console.log("blk")
+//     }
+// }
+// else{
+//     console.log("sleep")
+// }
 // task 5
 // let one =7;
 // let two = 6;
@@ -106,17 +124,17 @@
 
 // task 6   ticket fare calculator
 // let age = 22;
-let ticket = 200;
-let student = true;
-if(age < 10){
-    console.log("free")
-}
-else if(student ){
-    console.log(ticket * 50 / 100)
-}
-else if (age >= 60 && age < 80){
-    console.log(ticket * 15 / 100)
-}
-else{
-    console.log(ticket)
-}
+// let ticket = 200;
+// let student = true;
+// if(age < 10){
+//     console.log("free")
+// }
+// else if(student ){
+//     console.log(ticket * 50 / 100)
+// }
+// else if (age >= 60 && age < 80){
+//     console.log(ticket * 15 / 100)
+// }
+// else{
+//     console.log(ticket)
+// }
