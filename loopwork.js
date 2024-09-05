@@ -26,7 +26,10 @@
 //         console.log(evenNumber);
 //     }
 //     evenNumber++;
-// }
+//
+//  }
+
+// task 3
 
 // display sum of all odd numbers from 81 to 131
 
@@ -51,3 +54,28 @@
 //     evenSumNmb++;
 // }
 // console.log(evenSum);
+
+
+// for loop 
+
+// task 1
+// for(i=1; i<61; i++){
+//     console.log("hello" , i)
+// }
+
+
+// task 2
+
+// for(i=61; i <= 100; i++){
+//     if(i%2 === 0){
+//         console.log(i)
+//     }
+// }
+
+// for(i=61; i<=98; i++){
+//     if(i%2 !==0){
+//         console.log(i)
+//     }
+// }
+
+// 
