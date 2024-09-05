@@ -78,4 +78,23 @@
 //     }
 // }
 
-// 
+// task 3
+// let sum = 0;
+// for(i = 81; i<= 131; i++){
+//     if(i % 2 !== 0){
+//         sum = sum + i;
+//     }
+// }
+// console.log(sum)
+
+let sum = 0;
+for(i = 203; i<= 333; i++){
+    if(i % 2 === 0){
+        sum = sum + i;
+    }
+}
+console.log(sum)
+
+// for(i = 50; i >= 10; i--){
+//     console.log(i);
+// }
