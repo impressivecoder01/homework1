@@ -53,3 +53,6 @@ let myObject = {
 };
 let objects = Object.keys(myObject);
 console.log(objects)
+for(let object of objects){
+    console.log(object,':' ,myObject[object], '|' , 'type :', typeof myObject[object])
+}
