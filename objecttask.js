@@ -51,4 +51,5 @@ let myObject = {
     isStudent: true
 
 };
-console.log(Object.keys(myObject))
+let objects = Object.keys(myObject);
+console.log(objects)
